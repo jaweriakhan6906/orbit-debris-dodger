@@ -1,0 +1,19 @@
+{
+  "name": "orbit-debris-dodger-api",
+  "version": "1.0.0",
+  "description": "Backend for Orbit Debris Dodger - persists launched satellites and simulated collision incidents (DecodeLabs Project 2)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
